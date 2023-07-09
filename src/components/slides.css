@@ -1,0 +1,6 @@
+.slides {
+  background-image: url("../assets/bg.jpg"); /* Set the background image path */
+  background-size: cover; /* Scale the background image to cover the container */
+  background-position: center; /* Center the background image */
+  opacity: 1; /* Set the opacity value between 0 and 1 */
+}
