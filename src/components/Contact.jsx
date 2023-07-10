@@ -17,17 +17,18 @@ const Contact = () => {
         </div>
 
         <info className="contact-info">
-          <span>
+          <span className="div-logo">
             <img src={mobile} alt="" className="logo-info" />
-            1-541-754-3010
+            <span className="dtl-logo">1-541-754-3010</span>
           </span>
-          <span>
+          <span className="div-logo">
             <img src={envelop} alt="" className="logo-info" />
-            support@jointreaty.com
+            <span className="dtl-logo">support@jointreaty.com</span>
           </span>
-          <span>
+          <span className="div-logo">
             <img src={pointer} alt="" className="logo-info" />
-            3782 Shady Pines Drive USA
+
+            <span className="dtl-logo">3782 Shady Pines Drive USA</span>
           </span>
         </info>
         <div className="social-icons">
@@ -54,12 +55,16 @@ const Contact = () => {
 
       <div className="contact-form-container">
         <div className="left-side">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="text" placeholder="Subject" />
+          <input className="left-input" type="text" placeholder="Name" />
+          <input className="left-input" type="email" placeholder="Email" />
+          <input className="left-input" type="text" placeholder="Subject" />
         </div>
         <div className="right-side">
-          <textarea placeholder="Message"></textarea>
+          <textarea
+            rows={9}
+            className="messages"
+            placeholder="Message"
+          ></textarea>
           <button className="send-button">Send Message</button>
         </div>
       </div>

@@ -7,9 +7,9 @@ import Button from "react-bootstrap/Button";
 const TopNav = () => {
   return (
     <>
-      <Navbar className="nav" bg="light" data-bs-theme="light">
+      <Navbar className="nav w-100 h-auto" bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home" className="text w-50 f ">
+          <Navbar.Brand href="#home" className="text w-5 f">
             <span>
               <img src={logo} alt="" />
             </span>

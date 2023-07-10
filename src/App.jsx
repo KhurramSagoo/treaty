@@ -11,13 +11,16 @@ import Material from "../src/components/Material";
 import Center from "./components/Center";
 import IconCard from "./components/IconCard";
 import Contact from "./components/Contact";
+import Nav2 from './components/Nav2'
+import Footer from "./components/Footer";
 
 // import '../node_modules/bootstrap/dist/css/bootstrap-grid.css'
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <>
-      <TopNav />
+    <Nav2 />
+      {/* <TopNav /> */}
       <SlidesCarousels />
       {/* <Header /> */}
       {/* <Sample/> */}
@@ -25,6 +28,7 @@ function App() {
       <Center />
       <IconCard />
       <Contact />
+      <Footer />
     </>
   );
 }

@@ -6,30 +6,33 @@
 }
 
 .contact-form {
-  margin: 0;
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
 .contact-heading {
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
 }
-.contact-form h2 {
-  text-align: center;
-}
 
+.div-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 .logo-info {
   width: 50px;
+  margin-right: auto;
 }
-
-.social-icons {
-  width: 50px;
-  margin-top: 20px;
-  text-align: center;
+.dtl-logo {
+  margin-right: 50px;
 }
 
 .social-icons a {
@@ -52,10 +55,17 @@
 }
 .s-icon {
   width: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -70%;
 }
 
 .contact-form-container {
-  width: 50%;
+  padding: 0;
+  margin: 0;
+  width: 65%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -63,19 +73,24 @@
 }
 
 .left-side {
+  margin-top: -7%;
   width: 50%;
-  padding: 20px;
+  padding: 0 10px 0 10px;
 }
-
+.left-input {
+  height: 64px;
+}
 .right-side {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   width: 50%;
-  padding: 5px;
+
+  padding: 0 30px 0 0;
 }
 .main-contact {
+  height: 50vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -95,4 +110,28 @@ button.send-button {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .main-contact {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+  }
+  .left-side {
+    margin-top: -7%;
+    width: 100%;
+    padding: 0 10px 0 10px;
+  }
+  .right-side {
+    width: 100%;
+    margin-left: 10%;
+  }
 }
