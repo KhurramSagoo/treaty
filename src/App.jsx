@@ -19,11 +19,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-    <Nav2 />
-      {/* <TopNav /> */}
+    {/* <Nav2 /> */}
+      <TopNav />
       <SlidesCarousels />
       {/* <Header /> */}
-      {/* <Sample/> */}
+      <Sample/>
       {/* <Material /> */}
       <Center />
       <IconCard />
