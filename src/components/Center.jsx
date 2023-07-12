@@ -1,5 +1,6 @@
 import React from "react";
 import sidephoto from "../assets/sliceing.png";
+// import { styled } from '@mui/material/styles';
 import "./center.css";
 
 const Center = () => {
@@ -24,27 +25,7 @@ const Center = () => {
               quos accusantium. Possimus.
             </p>
           </div>
-          <div className="item-child">
-            <h6>Lorem ipsum dolor sit amet.</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure,
-              quos accusantium. Possimus.
-            </p>
-          </div>
-          <div className="item-child">
-            <h6>Lorem ipsum dolor sit amet.</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure,
-              quos accusantium. Possimus.
-            </p>
-          </div>
-          <div className="item-child">
-            <h6>Lorem ipsum dolor sit amet.</h6>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure,
-              quos accusantium. Possimus.
-            </p>
-          </div>
+
           {/* </div> */}
         </div>
       </div>
